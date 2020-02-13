@@ -5,3 +5,19 @@
     margin-left: 6.25%;
     background-size: cover;
 }
+
+.header {
+    height: 120px;
+    background: red;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    width: 100px;
+    height: 41px;
+    border-radius: 20px;
+    background-color: #000000;
+}
