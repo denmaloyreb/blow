@@ -1,0 +1,7 @@
+.wrapper {
+    height: 100vh;
+    width: 93.75%;
+    background: url('./assets/images/Group\ 1.png');
+    margin-left: 6.25%;
+    background-size: cover;
+}
