@@ -7,17 +7,38 @@
 }
 
 .header {
-    height: 120px;
-    background: red;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo {
+    font-size: 40px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 900;
+    margin: 30px 0 0 30px;
+}
+
+.navbar {
+    width: 480px;
+    margin: 30px 30px 0 0;
 }
 
 .navbar ul {
     display: flex;
+    justify-content: space-between;
 }
 
-.navbar ul li {
+.navbar ul li a {
+    display: block;
     width: 100px;
     height: 41px;
     border-radius: 20px;
     background-color: #000000;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 41px;
 }
