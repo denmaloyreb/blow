@@ -36,9 +36,42 @@
     width: 100px;
     height: 41px;
     border-radius: 20px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    line-height: 41px;
+    font-family: "Montserrat";
+}
+
+.navbar ul li a:hover {
+    display: block;
+    width: 100px;
+    height: 41px;
+    border-radius: 20px;
     background-color: #000000;
     text-align: center;
     color: #FFF;
     text-decoration: none;
     line-height: 41px;
+    font-family: "Montserrat";
+}
+
+.explore {
+    margin: 200px auto 0;
+    width: fit-content;
+    -webkit-box-shadow: 3px 75px 88px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 75px 88px -15px rgba(0,0,0,0.75);
+box-shadow: 3px 75px 88px -15px rgba(0,0,0,0.75);
+}
+
+.explore button {
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFF;
+    font-family: "Montserrat";
+    border: none;
+    text-transform: uppercase;
+
 }
